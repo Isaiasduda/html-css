@@ -74,8 +74,15 @@ section.normal {
 
 section.imagem {
     background-color: black;
-    color: aliceblue;
-    
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 1px 1px black;
+   
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.imagem > p {
@@ -83,6 +90,16 @@ section.imagem > p {
     
     display: inline-block;
 }
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+}
+
 footer {
     background-color: black;
     color: aliceblue;
